@@ -16,7 +16,6 @@ import google from "./google.svg";
 import apple from "./apple.svg";
 import arrowUp from "./arrow-up.svg";
 import discount from "./Discount.svg";
-import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
@@ -27,6 +26,8 @@ import people04 from "./people04.jpg";
 import people05 from "./people05.jpg";
 import people06 from "./people06.jpg";
 import people07 from "./people07.png";
+import tiktok from "./tiktok.svg";
+import telegram from "./telegram.svg";
 export {
   airbnb,
   bill,
@@ -35,6 +36,7 @@ export {
   coinbase,
   dropbox,
   logo,
+  telegram,
   quotes,
   robot,
   send,
@@ -42,11 +44,11 @@ export {
   star,
   menu,
   close,
+  tiktok,
   google,
   apple,
   arrowUp,
   discount,
-  facebook,
   instagram,
   linkedin,
   twitter,

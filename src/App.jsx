@@ -3,7 +3,6 @@ import {
   Billing, 
   Business, 
   CardDeal, 
-  Clients, 
   CTA, 
   Footer, 
   Hero, 
@@ -33,7 +32,6 @@ const App = () => {
           <Billing/>
           <CardDeal/>
           <Testimonials/>
-          <Clients/>
           <CTA/>
           <Footer/>     
         </div>

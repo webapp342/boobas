@@ -6,17 +6,16 @@ import {
   people05,
   people06,
   people07,
-  facebook, 
+  
   instagram, 
-  linkedin, 
+
   twitter, 
-  airbnb, 
-  binance, 
-  coinbase, 
-  dropbox, 
+
   send, 
   shield, 
-  star
+  star,
+  tiktok,
+  telegram
 } from "../assets";
 
 export const navLinks = [
@@ -110,26 +109,19 @@ export const feedback = [
     title: "Chief Operating Officer",
     img: people06,
   },
-  {
-    id: "feedback-7",
-    content:
-      "We are redefining wealth management through automation and AI, helping users grow their assets effortlessly.",
-    name: "Isabella Laurent",
-    title: "VP of Product Innovation",
-    img: people07,
-  },
+
 ];
 
 export const stats = [
   {
     id: "stats-1",
     title: "User Active",
-    value: "3800+",
+    value: "7359+",
   },
   {
     id: "stats-2",
     title: "Trusted by Company",
-    value: "230+",
+    value: "261+",
   },
   {
     id: "stats-3",
@@ -144,23 +136,18 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "https://www.hoobank.com/content/",
       },
       {
         name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
       },
       {
         name: "Create",
-        link: "https://www.hoobank.com/create/",
       },
       {
         name: "Explore",
-        link: "https://www.hoobank.com/explore/",
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
       },
     ],
   },
@@ -169,23 +156,18 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
       },
       {
         name: "Partners",
-        link: "https://www.hoobank.com/partners/",
       },
       {
         name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
       },
       {
         name: "Blog",
-        link: "https://www.hoobank.com/blog/",
       },
       {
         name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
       },
     ],
   },
@@ -194,11 +176,9 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
       },
       {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
       },
     ],
   },
@@ -208,40 +188,22 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/boobablip",
   },
   {
     id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
+    icon: telegram,
+    link: "https://t.me/BoobaBlipCommunity",
   },
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://x.com/BoobaBlip",
   },
   {
     id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
+    icon: tiktok,
+    link: "https://www.tiktok.com/@boobablip?_t=8scYCPf4zaQ&_r=1",
   },
 ];
 
-export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
-];
