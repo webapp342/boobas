@@ -11,7 +11,7 @@ const Footer = () => {
           <img
             src={logo}
             alt='logo'
-            className='w-[266px] h-[172px] object-contain'
+            className='w-[87px]  object-contain'
           />
           <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>
             A new way to manage your investments & returns in secure.         
