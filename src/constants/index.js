@@ -115,18 +115,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "7359+",
+    title: "Beta Users Active",
+    value: "+71359",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "261+",
+    title: "Companies Trust Us",
+    value: "+261",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Transactions",
+    value: "+$285M",
   },
 ];
 
@@ -193,7 +193,7 @@ export const socialMedia = [
   {
     id: "social-media-2",
     icon: telegram,
-    link: "https://t.me/BoobaBlipCommunity",
+    link: "https://t.me/boobablip_channel",
   },
   {
     id: "social-media-3",

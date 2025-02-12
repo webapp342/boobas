@@ -31,7 +31,8 @@ const Business = () => {
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         you can enhance your financial life by growing your tokens, earning rewards, and saving money. With hundreds of opportunities within the BoobaBlip ecosystem, the possibilities are endless.
         </p>
-        <Button styles="mt-10" link="https://t.me/BoobaBlipBot" />      </div>
+        {/* <Button styles="mt-10" link="https://t.me/BoobaBlipBot" /> */}
+      </div>
       <div className={`${layout.sectionImg} flex-col`}>
         {features.map((feature, index) => (
           <FeatureCard key={feature.id} {...feature} index={index}/>
